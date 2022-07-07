@@ -1,1 +1,1 @@
-# scandiweb-test-assignment
+# Scandiweb test assignment for junior web developer
