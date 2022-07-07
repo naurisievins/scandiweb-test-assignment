@@ -1,0 +1,100 @@
+    body {
+        margin:5px;
+        padding:12px;
+    }
+    header table {
+        margin-top:20px;
+        width:100%;
+    }
+    header table input {
+        padding:8px 12px;
+        cursor:pointer;
+    }
+    header row{
+        height:30px;
+    }
+    header h1 {
+        margin:0px;
+    }
+    .fright {
+        float:right;
+        margin:5px;
+    }
+    .card {
+        background:rgb(184, 204, 204);
+        width:400px;
+        height:200px;
+        border-radius:5px;
+        border: 1px solid rgb(156, 156, 156);
+        margin: 10px;
+        word-wrap: break-word;
+        float:left;
+    }
+    .card p {
+        text-align:center;
+        margin:9px;
+    }
+    .card:hover {
+        background:rgb(191, 209, 209);
+        border:1px solid rgb(190, 194, 196);
+    }
+    .delete-checkbox {
+        margin:5px;
+        cursor:pointer;
+        width:20px;
+        height:20px;
+    }
+    main {
+        height:calc(100vh - 128px);
+    }
+    footer {
+        clear:both;
+        position:relative;
+        margin-top:-50px;
+        bottom:0;
+        height:50px;
+        line-height:25px;
+        text-align:center;
+        width:100%;
+    }
+    #cancel-btn, #delete-product-btn{
+        background-color:rgb(218, 70, 70);
+        border-radius:3px;
+        font-weight:bold;
+        border:1px solid rgb(168, 54, 54);
+    }
+    #cancel-btn:hover, #delete-product-btn:hover{
+        background-color:rgb(241, 80, 80);
+    }
+    #save-product-btn, #add-product-btn{
+        background-color:rgb(7, 168, 61);
+        border-radius:3px;
+        font-weight:bold;
+        border:1px solid rgb(7, 134, 50);
+    }
+    #save-product-btn:hover, #add-product-btn:hover {
+        background-color:rgb(11, 185, 69);
+    }
+    #weightin, #dimensionsin {
+        display:none;
+    }
+    .namecol {
+        text-align:right;
+        padding:5px;
+        font-weight:bold;
+        width:100px;
+    }
+    #product_form {
+        background:rgb(184, 190, 186);
+        width:555px;
+        padding:5px 20px;
+        border:1px solid rgb(158, 158, 155);
+        border-radius:3px;
+    }
+    #product_form input, select{
+        border-radius:4px;
+        border:1px solid rgb(124, 123, 123);
+    }
+    #msg {
+        color:red;
+    }
